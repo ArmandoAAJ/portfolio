@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
     return (
       <Modal height={height}>
         <ul>
-          <NavLink onClick={handleOpenPage} exact to="/">
+          <NavLink onClick={handleOpenPage} exact to="/portfolio">
             Sobre
           </NavLink>
           <NavLink onClick={handleOpenPage} to="/projects">
@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
         )}
         {width > 720 && (
           <ul>
-            <NavLink exact to="/">
+            <NavLink exact to="/portfolio">
               Sobre
             </NavLink>
             <NavLink to="/projects">Projetos</NavLink>
