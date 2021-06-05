@@ -38,6 +38,13 @@ export default function api() {
         "Aplicação desenvolvida afim de avançar os conhecimentos Full-Stack durante a 10 edição da Semana OmniStack. O objetivo da aplicação é permitir que Devs se cadastrem e encontrem outros Deves próximos que trabalham com tecnologias semelhantes.",
     },
     {
+      title: ["Code Hero", "#EC1D25"],
+      techs: ["", "", "React Native", "", ""],
+      repository: "https://github.com/ArmandoAAJ/codeHeros",
+      description:
+        "Code Hero é uma aplicação criada em React Native + Expo, com o intuito de listar os super heróis através da Api https://developer.marvel.com/ e exibir algumas informações, bem como nome, imagem e suas características. Requisitos obrigatórios seguir o layout proposto e utilizar paginação. Além de possibilitar a busca por um super herói específico.",
+    },
+    {
       title: ["FastFeet", "#7035DF"],
       techs: ["ReactJS", "NodeJS", "React Native", "", ""],
       repository: "https://github.com/ArmandoAAJ/FastFeet",
@@ -50,6 +57,13 @@ export default function api() {
       repository: "https://github.com/ArmandoAAJ/gympoint",
       description:
         "Aplicação desenvolvida para a certificação do bootcamp GoStack 9.0. O objetivo da aplicação é auxiliar a academia Gympoint a gerenciar frequência de alunos, ter um controle sobre matrículas de cada um e fornecer auxílio para que todos tenham a melhor experiência possível.",
+    },
+    {
+      title: ["Portfólio", "#3ED361"],
+      techs: ["ReactJS", "", "", "TypeScript", ""],
+      repository: "https://github.com/ArmandoAAJ/portfolio",
+      description:
+        "O projeto visa o estudo e desenvolvimento de uma aplicação em ReactJS. Com o intuito de expor os conhecimentos adquiridos ao longo dos estudos, a aplicação consiste em 2 ‘interfaces’ sendo uma sobre o autor e a outra a exposição de projetos desenvolvidos. Para deixar a aplicação disponível utiliza-se o GitHub Pages como ferramenta de deploy.",
     },
   ];
 
