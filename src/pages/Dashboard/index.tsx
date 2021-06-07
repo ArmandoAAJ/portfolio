@@ -24,7 +24,7 @@ export const Dashboard: React.FC = () => {
             É uma honra ter você aqui e apresentar minha história de
             aprendizado.
           </h1>
-          <NavLink to="projects">
+          <NavLink to="/projects">
             <button>PROJETOS</button>
           </NavLink>
         </div>
