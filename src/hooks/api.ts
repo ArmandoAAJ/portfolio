@@ -1,6 +1,13 @@
 export default function api() {
   const projects = [
     {
+      title: ["Green Plant", "#4d8e59"],
+      techs: ["", "", "React Native", "TypeScript", ""],
+      repository: "https://github.com/ArmandoAAJ/plants-app",
+      description:
+        "O projeto tem como objetivo desenviolver um aplicativo utilizando React Native - Expo. Onde destaca-se o uso de redux para gerencimento de estados. Para deixar a interface do usuário mais atrativa e aprimorar os conhecimentos optei por utilizar algumas formas de animaçoes entre ela Animated do prório React Native, reac-native-animatable e Lottie Files.",
+    },
+    {
       title: ["Plant Manager", "#32B768"],
       techs: ["", "", "React Native", "TypeScript", ""],
       repository: "https://github.com/ArmandoAAJ/NLW5-PlantManager",
